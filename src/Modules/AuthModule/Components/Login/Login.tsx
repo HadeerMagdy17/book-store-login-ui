@@ -44,7 +44,7 @@ const Login: React.FC = (): JSX.Element => {
         id="email"
         type="email"
         autoComplete="email"
-        defaultValue="anasabdo704@gmail.com"
+      
         // error={!!errors.email}
         // helperText={errors.email?.message}
         sx={{
@@ -58,7 +58,7 @@ const Login: React.FC = (): JSX.Element => {
         variant="body2"
         sx={{
           mt: 1,
-          color: "#757575", // لون رمادي خفيف للنص التوضيحي
+          color: "#757575", 
         }}
       >
         
@@ -74,7 +74,7 @@ const Login: React.FC = (): JSX.Element => {
         id="password"
         autoComplete="password"
         label="Password"
-        defaultValue="Anas@123"
+       
         // error={!!errors.password}
         // helperText={errors.password?.message}
         sx={{
